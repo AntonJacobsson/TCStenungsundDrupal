@@ -293,10 +293,10 @@ drupalgap.settings.blocks.easystreet3 = {
     main_menu: { }
   },
   sub_header: {
-    title: { }
+    title: { },
+    primary_local_tasks: { }
   },
   navigation: {
-    primary_local_tasks: { },
     my_menu: { }
   },
   content: {
