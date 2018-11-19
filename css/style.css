@@ -1,0 +1,11 @@
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-image: url(tcbild.png);
+	height: 210px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.region_navigation {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
