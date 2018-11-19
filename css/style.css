@@ -3,6 +3,7 @@
 	height: 210px;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: white;
 }
 .region_navigation {
     position: fixed;
