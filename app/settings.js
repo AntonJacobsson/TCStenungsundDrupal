@@ -256,16 +256,16 @@ drupalgap.settings.menus['main_menu'] = {
 drupalgap.settings.menus['my_menu'] = {
   links:[
     {
-      title: '1',
-      path: 'node/5'
+      title: 'Något',
+      path: '404'
     },
     {
-      title: '2',
-      path: 'node/2'
+      title: 'Meny',
+      path: 'articles'
     },
     {
-      title: '3',
-      path: 'node/4'
+      title: 'Evenemang',
+      path: '404'
     }
   ]
 };
@@ -293,7 +293,7 @@ drupalgap.settings.blocks.easystreet3 = {
     main_menu: { }
   },
   sub_header: {
-    //title: { },
+    title: { },
     primary_local_tasks: { }
   },
   navigation: {

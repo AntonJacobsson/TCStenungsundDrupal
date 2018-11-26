@@ -1,15 +1,37 @@
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
-	background-image: url(tcbild.png);
+/*	background-image: url(tcbild.png);
 	height: 210px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: white;
+*/
 }
 .region_navigation {
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 4em;
+}
+.ui-navbar ul li a {
+    height: 4em;
+        line-height: 3.5;
 }
 .region_content {
 	margin-bottom: 2em;
+}
+.views-rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+.views-rows a {
+    width: 46%;
+    margin: 0 auto;
+    height: 7em;
+    border: 1px solid black;
+    margin-bottom: 2em;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 6.5;
 }

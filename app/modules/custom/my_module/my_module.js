@@ -14,7 +14,7 @@ function my_module_articles_page() {
     var content = {};
     content['my_articles_list'] = {
       theme: 'view',
-      format: 'ul',
+      format: 'div',
       path: 'my-articles', /* the path to the view in Drupal */
       row_callback: 'my_module_articles_list_row',
       empty_callback: 'my_module_articles_list_empty',
