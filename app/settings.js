@@ -239,15 +239,30 @@ drupalgap.settings.menus['my_menu'] = {
   links:[
     {
       title: 'Något',
-      path: '404'
+      path: '404',
+      options: {
+          attributes: {
+              'data-icon': 'cloud'
+          }
+      }
     },
     {
       title: 'Meny',
-      path: 'articles'
+      path: 'articles',
+      options: {
+          attributes: {
+              'data-icon': 'home'
+          }
+      }
     },
     {
       title: 'Evenemang',
-      path: '404'
+      path: '404',
+      options: {
+          attributes: {
+              'data-icon': 'calendar'
+          }
+      }
     }
   ]
 };
