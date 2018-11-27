@@ -232,24 +232,6 @@ drupalgap.settings.menus['main_menu'] = {
         }
       }
     },
-    {
-      title:'Taxonomy',
-      path:'taxonomy/vocabularies',
-      options:{
-        attributes:{
-          'data-icon':'grid'
-        }
-      }
-    },
-    {
-      title:'Users',
-      path:'user-listing',
-      options:{
-        attributes:{
-          'data-icon':'info'
-        }
-      }
-    }
   ]
 };
 
@@ -290,10 +272,15 @@ drupalgap.settings.blocks.easystreet3 = {
         mode: 'include',
       }
     },
-    main_menu: { }
+    main_menu: {
+        roles: {
+          value: ['authenticated user'],
+          mode: 'include',
+      }
+  },
   },
   sub_header: {
-    title: { },
+//    title: { },
     primary_local_tasks: { }
   },
   navigation: {
