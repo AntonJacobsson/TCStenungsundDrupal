@@ -31,10 +31,13 @@ function my_module_articles_page() {
  * The row callback to render a single row.
  */
 function my_module_articles_list_row(view, row, variables) {
-  try {
-    return l(t(row.title), 'node/' + row.nid);
-  }
-  catch (error) { console.log('my_module_articles_list_row - ' + error); }
+
+  var image_html = theme('image', { path: row.Image.src });
+  var title_html = '<p>' + row.title + '</p>';
+  var link = l(image_html + title_html, 'node/' + row.nid);
+
+  return link;
+
 }
 
 /**

@@ -33,14 +33,15 @@ background-color: #888!important;
     width: 46%;
     margin: 0 auto;
     height: 7em;
-    border: 0px solid black;
     margin-bottom: 1em;
     color: #f1f1f1;
     text-decoration: none;
     text-align: center;
-    border-radius: 10px;
     line-height: 6.5;
     text-shadow: 0 0 0;
+        border-radius: 10px;
+        position: relative;
+        background-color: none;
 }
 .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
     color: #f1f1f1;
@@ -55,14 +56,19 @@ background-color: #888!important;
     width: 100%;
     margin: 0 auto;
 }
-.views-rows a:nth-of-type(3n+0) {
-    background-color: #558c8d;
+
+.views-rows a img {
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+        left: 0;
 }
-.views-rows a:nth-of-type(3n+1) {
-    background-color: #d39100;
-}
-.views-rows a:nth-of-type(3n+2) {
-    background-color: #29568f;
+
+.views-rows a p {
+position: relative;
+margin: 0;
+height: 100%;
+line-height: 7;
 }
 
 .ui-content .ui-listview, .ui-panel-inner>.ui-listview {
