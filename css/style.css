@@ -11,13 +11,19 @@
     width: 100%;
     bottom: 0;
     height: 4em;
+    z-index: 9999;
 }
 .ui-navbar ul li a {
     height: 4em;
-        line-height: 3.5;
+    line-height: 3.5;
+
+}
+.ui-btn-active {
+background-color: #888!important;
+
 }
 .region_content {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 .views-rows {
     display: flex;
@@ -28,7 +34,7 @@
     margin: 0 auto;
     height: 7em;
     border: 0px solid black;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: #f1f1f1;
     text-decoration: none;
     text-align: center;
@@ -57,4 +63,24 @@
 }
 .views-rows a:nth-of-type(3n+2) {
     background-color: #29568f;
+}
+
+.ui-content .ui-listview, .ui-panel-inner>.ui-listview {
+    margin-bottom: 1em;
+}
+.ui-header div ul {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.ui-header div ul li {
+    list-style: none;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
+.ui-header div ul li a {
+    margin: 0 auto;
+    width: 93%;
 }
