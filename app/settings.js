@@ -159,7 +159,8 @@ drupalgap.settings.loader = {
 //Drupal.modules.contrib['example'] = {};
 
 /** Custom Modules - www/app/modules/custom **/
-Drupal.modules.custom['my_module'] = {};
+Drupal.modules.custom['article_module'] = {};
+Drupal.modules.custom['event_module'] = {};
 
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
@@ -257,7 +258,7 @@ drupalgap.settings.menus['my_menu'] = {
     },
     {
       title: 'Evenemang',
-      path: '404',
+      path: 'events',
       options: {
           attributes: {
               'data-icon': 'calendar'

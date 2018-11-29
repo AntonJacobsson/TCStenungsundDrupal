@@ -1,36 +1,36 @@
 /**
  * Implements hook_menu().
  */
-function my_module_menu() {
+function article_module_menu() {
   var items = {};
   items['articles'] = {
     title: 'Articles',
-    page_callback: 'my_module_articles_page'
+    page_callback: 'article_module_articles_page'
   };
   return items;
 }
-function my_module_articles_page() {
+function article_module_articles_page() {
   try {
     var content = {};
-    content['my_articles_list'] = {
+    content['article_articles_list'] = {
       theme: 'view',
       format: 'div',
       path: 'my-articles', /* the path to the view in Drupal */
-      row_callback: 'my_module_articles_list_row',
-      empty_callback: 'my_module_articles_list_empty',
+      row_callback: 'article_module_articles_list_row',
+      empty_callback: 'article_module_articles_list_empty',
       attributes: {
-        id: 'my_articles_list_view'
+        id: 'article_articles_list_view'
       }
     };
     return content;
   }
-  catch (error) { console.log('my_module_articles_page - ' + error); }
+  catch (error) { console.log('article_module_articles_page - ' + error); }
 }
 
 /**
  * The row callback to render a single row.
  */
-function my_module_articles_list_row(view, row, variables) {
+function article_module_articles_list_row(view, row, variables) {
 
   var image_html = theme('image', { path: row.Image.src });
   var title_html = '<p>' + row.title + '</p>';
