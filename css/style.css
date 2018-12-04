@@ -18,7 +18,7 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 3em;
+    height: 3.5em;
     z-index: 9999;
     background: rgba(41,86,143,1)!important;
 }
@@ -133,4 +133,24 @@
 .ui-header div ul li a {
     margin: 0 auto;
     width: 93%;
+}
+
+.ui-icon-home:after {
+	background-image: url("/mobile-application/images/TCLogo.png");
+    background-size: 100%!important;
+}
+.ui-icon-cloud:after {
+	background-image: url("/mobile-application/images/QRCode.png");
+}
+.ui-icon-calendar:after {
+	background-image: url("/mobile-application/images/Compass.png");
+}
+.ui-icon-calendar:after, .ui-icon-cloud:after, .ui-icon-home:after {
+    background-size: 80%;
+    width: 44px;
+    height: 44px;
+    margin-left: -22px;
+    top: .4em;
+    background-color:  rgba(41,86,143,1);
+
 }
