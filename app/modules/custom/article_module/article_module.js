@@ -4,7 +4,7 @@
 function article_module_menu() {
   var items = {};
   items['articles'] = {
-    title: 'Articles',
+    title: 'Välkommen!',
     page_callback: 'article_module_articles_page'
   };
   return items;

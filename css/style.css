@@ -1,31 +1,60 @@
+/* Change this to get admin interface */
+.region_header {
+    display: none;
+}
+.region_sub_header {
+    display:none;
+}
+.node {
+    padding-top: 0px!important;
+}
+#articles {
+    padding-top: 0px!important;
+}
+
+
+
 .region_navigation {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 4em;
+    height: 3em;
     z-index: 9999;
+    background: rgba(41,86,143,1)!important;
 }
+
 .ui-navbar ul li a {
-    height: 4em;
+    height: 3em;
     line-height: 3.5;
 
 }
 .ui-btn-active {
-background-color: #888!important;
-
+    background-color: rgba(41,86,143,1)!important;
+    border-color: inherit!important;
 }
+.ui-navbar ul li a:visited {
+    background-color: rgba(41,86,143,1)!important;
+    border: 0px!important;
+}
+.ui-navbar ul li a {
+    background-color: rgba(41,86,143,1)!important;
+    border: 0px!important;
+}
+
+
 .region_content {
 	margin-bottom: 3em;
 }
 .views-rows {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1em;
 }
 .views-rows a {
-    width: 46%;
+    width: 44%;
     margin: 0 auto;
-    height: 7em;
-    margin-bottom: 1em;
+    height: 15vh;
+    margin-bottom: 1.8em;
     color: #f1f1f1;
     text-decoration: none;
     text-align: center;
@@ -40,36 +69,52 @@ background-color: #888!important;
 }
 
 #articles div:nth-of-type(2) {
-    background-image: url(tcbild.png);
-    height: 180px;
+    background-image: url(TCLogoColor.png);
+    height: 27vh;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
     width: 100%;
     margin: 0 auto;
+    display: block;
+    background-size: 40%;
+    margin-top: -1px;
 }
-
+#events div:nth-of-type(2) {
+    display: block;
+}
 .views-rows a img {
-    border-radius: 10px;
+    border-radius: 25px;
+    width: 100%!important;
     height: 100%;
     position: absolute;
-        left: 0;
+    left: 0;
 }
 
 .views-rows a p {
-position: relative;
-margin: 0;
-width: 100%;
+    position: relative;
+        margin: 0;
+        width: 100%;
+        border-radius: 25px;
+        text-align: left;
+        line-height: 10;
+        padding-left: 0.7em;
+        font-size: 2.4vh;
 }
-.views-rows a:nth-of-type(3n+1) p {
-    background-color: rgba(51, 136, 204, 0.4);
+.views-rows a:nth-of-type(4n+1) p {
+    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
 }
-.views-rows a:nth-of-type(3n+2) p {
-    background-color: rgba(229, 191, 0, 0.4);
+.views-rows a:nth-of-type(4n+4) p {
+    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
 }
-.views-rows a:nth-of-type(3n+3) p {
-    background-color: rgba(91, 91, 91, 0.4);
+.views-rows a:nth-of-type(4n+2) p {
+    background: linear-gradient(45deg, rgba(41,86,143,1) 0%, rgba(41,86,143,0.3) 100%);
 }
+.views-rows a:nth-of-type(4n+3) p {
+    background: linear-gradient(45deg, rgba(41,86,143,1) 0%, rgba(41,86,143,0.3) 100%);
+}
+
+
 .ui-content .ui-listview, .ui-panel-inner>.ui-listview {
     margin-bottom: 1em;
 }

@@ -239,7 +239,7 @@ drupalgap.settings.menus['main_menu'] = {
 drupalgap.settings.menus['my_menu'] = {
   links:[
     {
-      title: 'Något',
+    //  title: 'Något',
       path: '404',
       options: {
           attributes: {
@@ -248,7 +248,7 @@ drupalgap.settings.menus['my_menu'] = {
       }
     },
     {
-      title: 'Meny',
+//title: 'Meny',
       path: 'articles',
       options: {
           attributes: {
@@ -257,7 +257,7 @@ drupalgap.settings.menus['my_menu'] = {
       }
     },
     {
-      title: 'Evenemang',
+//      title: 'Evenemang',
       path: 'events',
       options: {
           attributes: {
