@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Helvetica Neu Bold';
+        src: url('/mobile-application/fonts/HelveticaNeuBold.ttf');
+}
+@font-face {
+    font-family: 'Helvetica Neu Light';
+        src: url('/mobile-application/fonts/HelveticaNeueLight.ttf');
+}
+@font-face {
+    font-family: 'Adobe Garamond Regular';
+        src: url('/mobile-application/fonts/AdobeGaramondRegular.otf');
+}
+
+h3 {
+    font-family: 'Helvetica Neu Bold';
+}
+
+
+
+
+
 /* Change this to get admin interface */
 .region_header {
     display: none;
@@ -24,6 +45,7 @@
     margin-top: -1px;
     display: none;
 }
+/* end of comment */
 
 
 
@@ -172,13 +194,14 @@
     background: none;
     line-height: 3;
     font-size: 24px;
-    color: black;
+    color: #555;
 
 }
 .views-rows a:nth-last-of-type(1) p {
     position: absolute;
-    color: black;
+    color: #555;
     padding-left: 1.2em;
+    font-family: 'Helvetica Neu Light';
 }
 .views-rows a:nth-last-of-type(1) img {
     width: 58%!important;
