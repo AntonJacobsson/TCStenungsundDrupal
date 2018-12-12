@@ -20,6 +20,7 @@ h3 {
 
 
 /* Change this to get admin interface */
+
 .region_header {
     display: none;
 }
@@ -79,6 +80,8 @@ h3 {
 
 .region_content {
 	margin-bottom: 3em;
+}
+#articles div:nth-of-type(4) {
     padding: 0;
 }
 .views-rows {
@@ -86,10 +89,8 @@ h3 {
     flex-wrap: wrap;
 }
 .views-rows a {
-    width: 40%;
-        margin: 0 auto;
+    width: 41%;
         height: 15vh;
-        margin-bottom: 1.8em;
         color: #f1f1f1;
         text-decoration: none;
         text-align: center;
@@ -120,24 +121,31 @@ h3 {
     position: relative;
         margin: 0;
         width: 100%;
-        border-radius: 25px;
+        border-radius: 20px;
         text-align: left;
-        line-height: 10;
-        padding-left: 0.7em;
-        font-size: 2.4vh;
-}
-.views-rows a:nth-of-type(4n+1) h3 {
-    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
-}
-.views-rows a:nth-of-type(4n+4) h3 {
-    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
+        line-height: 9;
+        padding-left: 0.9em;
+        font-size: 2.5vh;
 }
 .views-rows a:nth-of-type(4n+2) h3 {
-    background: linear-gradient(45deg, rgba(41,86,143,1) 0%, rgba(41,86,143,0.3) 100%);
+    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
+}
+.views-rows a:nth-of-type(4n+5) h3 {
+    background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
 }
 .views-rows a:nth-of-type(4n+3) h3 {
     background: linear-gradient(45deg, rgba(41,86,143,1) 0%, rgba(41,86,143,0.3) 100%);
 }
+.views-rows a:nth-of-type(4n+4) h3 {
+    background: linear-gradient(45deg, rgba(41,86,143,1) 0%, rgba(41,86,143,0.3) 100%);
+}
+.views-rows a:nth-of-type(2n+2) {
+    margin: 0 auto 5% 7%;
+}
+.views-rows a:nth-of-type(2n+3) {
+    margin: 0 7% 5% auto;
+}
+
 
 
 .ui-content .ui-listview, .ui-panel-inner>.ui-listview {
@@ -179,7 +187,7 @@ h3 {
     background-color:  rgba(41,86,143,1);
 
 }
-.views-rows a:last-child {
+.views-rows a:first-child {
     background:none;
     margin: 0 auto;
     height: 14em;
@@ -188,26 +196,27 @@ h3 {
     left: 0;
     width: 100%;
     order: 1;
-    margin-bottom: 2.5em;
+    margin-bottom: 3em;
 }
-.views-rows a:nth-last-of-type(1) h3 {
+.views-rows a:nth-of-type(1) h3 {
     background: none;
     line-height: 3;
     font-size: 24px;
     color: #555;
+    padding-left: 0.6em;
 
 }
-.views-rows a:nth-last-of-type(1) p {
+.views-rows a:nth-of-type(1) p {
     position: absolute;
     color: #555;
     padding-left: 1.2em;
     font-family: 'Helvetica Neu Light';
+    font-size: 2vh;
 }
-.views-rows a:nth-last-of-type(1) img {
+.views-rows a:nth-of-type(1) img {
     width: 58%!important;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    height: 95%;
     top: 3vh;
 }

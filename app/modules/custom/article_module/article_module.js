@@ -34,8 +34,8 @@ function article_module_articles_list_row(view, row, variables) {
 
   var image_html = theme('image', { path: row.Image.src });
   var title_html = '<h3>' + row.title + '</h3>';
-  var body_html = '<p class="infoText">' + row.infoText + '</p>';
-  var link = l(image_html + title_html + body_html, 'node/' + row.nid);
+  var date_html = '<p>' + row.Date + '</p>';
+  var link = l(image_html + title_html + date_html, 'node/' + row.nid);
 
   return link;
 

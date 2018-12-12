@@ -161,7 +161,6 @@ drupalgap.settings.loader = {
 /** Custom Modules - www/app/modules/custom **/
 Drupal.modules.custom['article_module'] = {};
 Drupal.modules.custom['event_module'] = {};
-
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
  ***************************************/
@@ -240,7 +239,7 @@ drupalgap.settings.menus['my_menu'] = {
   links:[
     {
     //  title: 'Något',
-      path: '404',
+      path: 'search/node/',
       options: {
           attributes: {
               'data-icon': 'cloud'
@@ -296,7 +295,7 @@ drupalgap.settings.blocks.easystreet3 = {
   },
   },
   sub_header: {
-//    title: { },
+    title: { },
     primary_local_tasks: { }
   },
   navigation: {
@@ -304,7 +303,7 @@ drupalgap.settings.blocks.easystreet3 = {
   },
   content: {
     messages: { },
-    main: { }
+    main: { },
   },
 
 };
