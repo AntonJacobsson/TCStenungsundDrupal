@@ -247,16 +247,77 @@ h3 {
 }
 .form_suffix {
     text-align:center;
+    width: 100%;
+}
+.form_suffix ul {
+    margin-top: 1em!important;
+}
+.form_suffix ul li {
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    box-shadow: 1px 1px 3px lightgrey;
 }
 .form_suffix ul li a {
-
+    background-color: white!important;
+    border: 0!important;
+}
+.form_suffix ul li a:after {
+    display: none;
 }
 .form_suffix ul li a h2 {
         font-family: 'Helvetica Neu Bold';
+        font-size: 1.3em;
 }
 .form_suffix ul li a p {
         font-family: 'Helvetica Neu Light';
+        font-size: 1em;
 }
 #search_node_ div:nth-of-type(2) {
+    display: none;
+}
+#search_form {
+    display:flex;
+    flex-wrap: wrap;
+}
+#search_form div:nth-of-type(2) {
+    width: 100%;
+    order:1;
     display: block;
+}
+#search_form div:nth-of-type(3) {
+    right: 4%;
+    position: absolute;
+}
+#search_form div:nth-of-type(4) {
+    order:3;
+}
+#search_form div:nth-of-type(2) label {
+    display: none;
+}
+#search_form div:nth-of-type(2) div {
+    margin: 0;
+
+}
+#search_form div:nth-of-type(3) button {
+    margin: 0;
+    height: 2em;
+    color: #333;
+    text-shadow: none;
+    background: white;
+    border: 0;
+    line-height: 35;
+    margin-top: 0.2em;
+    box-shadow: none;
+}
+#search_form div:nth-of-type(3) button:after {
+    left: 2.9em;
+    background-size: 100% 100%;
+    background-color: #333;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    background-image: url(/mobile-application/images/search.svg);
+    background-color: white;
+
 }

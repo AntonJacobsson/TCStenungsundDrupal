@@ -41,7 +41,7 @@ function search_menu() {
   try {
     var items = {};
     items['search/%/%'] = {
-      title: t('Search'),
+      title: t('Sök'),
       'page_callback': 'drupalgap_get_form',
       'pageshow': 'search_form_pageshow',
       'page_arguments': ['search_form'],
