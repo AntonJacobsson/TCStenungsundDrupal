@@ -235,6 +235,26 @@ drupalgap.settings.menus['main_menu'] = {
   ]
 };
 
+drupalgap.settings.menus['back_button'] = {
+  links:[
+    {
+//      title:'Back',
+      options:{
+        attributes:{
+          'data-icon':'cloud',
+          'class':'ui-btn-right',
+          'onclick':'javascript:drupalgap_back();'
+        }
+      },
+      pages:{
+        value:[''],
+        mode:'exclude'
+      }
+    }
+  ]
+};
+
+
 drupalgap.settings.menus['my_menu'] = {
   links:[
     {
@@ -296,7 +316,8 @@ drupalgap.settings.blocks.easystreet3 = {
   },
   sub_header: {
     title: { },
-    primary_local_tasks: { }
+    primary_local_tasks: { },
+    back_button: { }
   },
   navigation: {
     my_menu: { }

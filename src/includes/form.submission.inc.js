@@ -155,7 +155,7 @@ function _drupalgap_form_validate(form, form_state) {
             if (element.title) { field_title = element.title; }
             drupalgap_form_set_error(
               name,
-              t('The') + ' ' + field_title + ' ' + t('field is required') + '.'
+              t('The') + ' ' + field_title + ' ' + t('field is required!!!') + '.'
             );
           }
         }

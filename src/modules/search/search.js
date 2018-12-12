@@ -111,13 +111,13 @@ function search_form(form, form_state) {
     };
     form.elements.keys = {
       type: 'textfield',
-      title: t('Enter your keywords'),
+      title: t('Skriv Taggar'),
       required: true,
       default_value: keys ? keys : ''
     };
     form.elements.submit = {
       type: 'submit',
-      value: t('Go'),
+      value: t('Sök'),
       options: {
         attributes: {
           'data-icon': 'search'
@@ -125,7 +125,7 @@ function search_form(form, form_state) {
       }
     };
     form.suffix += theme('jqm_item_list', {
-        title: t('Search results'),
+        title: t('Sök resultat'),
         items: [],
         options: {
           attributes: {
@@ -232,4 +232,3 @@ function theme_search_result_node(variables) {
   }
   catch (error) { console.log('theme_search_result_node - ' + error); }
 }
-
