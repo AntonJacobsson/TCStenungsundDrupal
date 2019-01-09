@@ -271,7 +271,7 @@ drupalgap.settings.menus['my_menu'] = {
       path: 'articles',
       options: {
           attributes: {
-              'data-icon': 'home'
+              'data-icon': 'tclogo'
           }
       }
     },

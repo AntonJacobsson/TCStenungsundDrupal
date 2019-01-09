@@ -104,7 +104,7 @@ h3 {
 }
 
 #events div:nth-of-type(2) {
-    display: block;
+    display: none;
 }
 #events {
     padding-top: 0!important;
@@ -112,7 +112,7 @@ h3 {
 #events div:nth-of-type(4) div ul li a::after{
     display:none;
 }
-.region_sub_header ul li a{
+.region_sub_header ul:nth-of-type(1) li a{
     background-image: url(/mobile-application/images/back-button.svg);
     background-size: 100% 100%;
     z-index: 9999;
@@ -122,6 +122,9 @@ h3 {
     position: absolute;
     left: 1vh;
 
+}
+.region_sub_header div ul li a {
+    background-image: none!important;
 }
 
 .views-rows a img {
@@ -186,8 +189,11 @@ h3 {
     list-style: none;
     margin: 0;
 }
+.region_sub_header div ul li a {
+    position: relative!important;
+}
 
-.ui-icon-home:after {
+.ui-icon-tclogo:after {
 	background-image: url("/mobile-application/images/TCLogo.png");
     background-size: 100%!important;
 }
@@ -197,7 +203,7 @@ h3 {
 .ui-icon-calendar:after {
 	background-image: url("/mobile-application/images/Compass.png");
 }
-.ui-icon-calendar:after, .ui-icon-cloud:after, .ui-icon-home:after {
+.ui-icon-calendar:after, .ui-icon-cloud:after, .ui-icon-tclogo:after {
     background-size: 80%;
     width: 44px;
     height: 44px;
@@ -238,6 +244,9 @@ h3 {
     position: absolute;
     right: 0;
     top: 3vh;
+}
+#article_articles_list_view form {
+    display: none;
 }
 
 /* Search Page */
@@ -320,4 +329,27 @@ h3 {
     background-image: url(/mobile-application/images/search.svg);
     background-color: white;
 
+}
+
+/* Event Page */
+
+#event_events_list_view ul li a {
+    background-color: white;
+}
+#event_events_list_view ul li a p  {
+    font-family: 'Helvetica Neu Light';
+    font-size: 1em;
+}
+#event_events_list_view ul li a h3  {
+    font-family: 'Helvetica Neu Bold';
+    font-size: 1.3em;
+}
+#event_events_list_view ul li {
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    box-shadow: 1px 1px 3px lightgrey;
+}
+#event_events_list_view ul {
+    margin-top: 1em;
 }
