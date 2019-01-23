@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Helvetica Neu Bold';
-        src: url('/mobile-application/fonts/HelveticaNeuBold.ttf');
+        src: url('http://192.168.1.230/tc/mobile-application/fonts/HelveticaNeuBold.ttf');
 }
 @font-face {
     font-family: 'Helvetica Neu Light';
-        src: url('/mobile-application/fonts/HelveticaNeueLight.ttf');
+        src: url('http://192.168.1.230/tc/mobile-application/fonts/HelveticaNeueLight.ttf');
 }
 @font-face {
     font-family: 'Adobe Garamond Regular';
-        src: url('/mobile-application/fonts/AdobeGaramondRegular.otf');
+        src: url('http://192.168.1.230/tc/mobile-application/fonts/AdobeGaramondRegular.otf');
 }
 
 h3 {
@@ -113,7 +113,7 @@ h3 {
     display:none;
 }
 .region_sub_header ul:nth-of-type(1) li a{
-    background-image: url(/mobile-application/images/back-button.svg);
+    background-image: url(http://192.168.1.230/tc/mobile-application/images/back-button.svg);
     background-size: 100% 100%;
     z-index: 9999;
     display: block;
@@ -136,14 +136,14 @@ h3 {
 }
 
 .views-rows a h3 {
-    position: relative;
-        margin: 0;
-        width: 100%;
-        border-radius: 20px;
-        text-align: left;
-        line-height: 9;
-        padding-left: 0.9em;
-        font-size: 2.5vh;
+position: relative;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px;
+    text-align: left;
+    line-height: 11;
+    padding-left: 0.7em;
+    font-size: 2.2vh;
 }
 .views-rows a:nth-of-type(4n+2) h3 {
     background: linear-gradient(45deg, rgba(211,145,0,1) 0%, rgba(211,145,0,0.2) 100%);
@@ -191,14 +191,14 @@ h3 {
 }
 
 .ui-icon-tclogo:after {
-	background-image: url("/mobile-application/images/TCLogo.png");
+	background-image: url("http://192.168.1.230/tc/mobile-application/images/TCLogo.png");
     background-size: 100%!important;
 }
 .ui-icon-cloud:after {
-	background-image: url("/mobile-application/images/search.svg");
+	background-image: url("http://192.168.1.230/tc/mobile-application/images/search.svg");
 }
 .ui-icon-calendar:after {
-	background-image: url("/mobile-application/images/compass.png");
+	background-image: url("http://192.168.1.230/tc/mobile-application/images/compass.png");
 }
 .ui-icon-calendar:after, .ui-icon-cloud:after, .ui-icon-tclogo:after {
     background-size: 80%;
@@ -333,7 +333,7 @@ h3 {
     width: 30px;
     height: 30px;
     margin-top: -15px;
-    background-image: url(/mobile-application/images/search.svg);
+    background-image: url(http://192.168.1.230/tc/mobile-application/images/search.svg);
     background-color: white;
 
 }
